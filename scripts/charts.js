@@ -179,7 +179,7 @@ function brushended() {
 		if(et.length >2 && st.length >2)
 		{
 			var months = {Jan: 1,Feb: 2,Mar: 3,Apr: 4,May: 5,Jun: 6,Jul: 7,Aug: 8,Sep: 9,Oct: 10,Nov: 11,Dec: 12};
-			stDate = st[3]+("0" + (months[st[1]])).slice(-2) + ("0" + et[2]).slice(-2);
+			stDate = st[3]+("0" + (months[st[1]])).slice(-2) + ("0" + st[2]).slice(-2);
 			edDate = et[3]+("0" + (months[et[1]])).slice(-2) + ("0" + et[2]).slice(-2);
 		}
 
@@ -207,7 +207,7 @@ var updateResults =function(stDate,edDate,filterResults)
 {
 	if((typeof(stDate)!="undefined") &&(typeof(edDate)!="undefined"))
 	{
-		var text = "Results for Date Range " + stDate + " to ";
+		var text = "Results for Date Range " + stDate + " to " + edDate;
 		
 	 	if (typeof(filterResults)!="undefined")
 	 		$("#results").html( text+' Filter: '+ filterResults); 

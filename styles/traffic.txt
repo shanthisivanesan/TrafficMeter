@@ -1,0 +1,10 @@
+Can you find the best way to visualise the movements of pedestrians around the City? Is it mapping, D3 charts or a more interactive web driven approach? How can you show relative behaviours of groups of people, traffic or hotspots? For example, can you write a training application for traffic officers? Or do you build a dashboard for City planners? The best and most innovative idea will win!
+
+----------------------------------
+dashboard for city planners: traffic
+csv file with 
+
+hourly line chart
+daily line chart
+over all bar chart - no of vehicles for a date range
+pie- major cities

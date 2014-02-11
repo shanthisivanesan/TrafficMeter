@@ -1,0 +1,58 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- endbuild -->
+  </head>
+<body>
+<div id="main">
+    <h1>Traffic Meter</h1>
+     <div class="row">
+            <div class="col-sm-5 control-area">
+                <div class="search">
+                    Search:<input type="text" value="94101"  placeholder="Search by Zip"/> <input type="text"   placeholder="Search by Street Name"/>
+                    <button type="button" id="Go" class="btn btn-default btn-xs" onclick="initialize()">Go</button>
+                    </div>
+            </div>
+    </div>  
+    <div><br></div>
+    <div class="col-lg-10 rightarea">
+        <div class="row">
+        <div id="timeslider"></div>
+        <div id="results" class="titles"></div>
+        </div>
+    </div>
+    
+   <div class="row">
+        <div class="col-lg-10 mainarea"> 
+            <div class="Root  rootnav" id="rootcharts">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"><h3 class="chart-title">Volume of Traffic </h3></div>
+                        <div class="panel-body" id="rootRef">
+                            <div id="root_RefMonth" class="col-lg-6 col-sm-12 chart"></div>
+                             <div id="root_chart" class="col-lg-6 col-sm-12 chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    </div> 
+     <div id="tooltip"></div>
+ <hr>
+        <footer>
+            <p>&copy;Shanthi Sivanesan 2014</p>
+        </footer>
+
+<script src="scripts/jquery.js"></script>
+ <script src="scripts/d3.v3.min.js"></script>
+ <script src="scripts/charts.js"></script>
+ </body>
+ </html>
+

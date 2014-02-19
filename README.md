@@ -1,4 +1,6 @@
-TrafficMeter
-============
+Traffic Charts for City of San Francisco using Web Application using  
 
-Traffic Charts for City of San Francisco
+HTML5, JQuery, Twitter Bootstrap and D3 Charts
+
+
+
